@@ -19,7 +19,7 @@ function generateShips() {
   var battleships = {
     name: 'BattleShip',
     length: 5,
-    quantity: 2
+    quantity: 1
   };
   var ships = randomShipGenerator(10, 10, [destroyers, battleships]);
   for (ship of ships){
